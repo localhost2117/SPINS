@@ -1,4 +1,3 @@
-```markdown
 # SPINS - Spinning Pi-based Interactive Nonsensical System
 
 **SPINS** is a playful, Raspberry Pi–powered interactive installation that transforms everyday interaction into a joyful, absurd experience. Inspired by the viral spinning cat meme, SPINS uses physical inputs (a button and light sensors) to trigger spinning cat animations accompanied by upbeat music. The project offers multiple modes of interaction, including:
@@ -84,4 +83,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Go wild, just don’t blame us if your cat starts spinning in real life.
-```
