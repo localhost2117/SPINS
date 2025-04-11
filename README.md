@@ -6,11 +6,7 @@
 - **Cat Teasing Mode:** Players use a laser pointer on light sensors to make individual cat avatars spin.
 - **Game Mode:** A random cat spins, and players must hit the corresponding sensor to record their reaction times over seven rounds. A stylish scoreboard displays the results with persistent score tracking.
 
-The system is engineered using Python with Tkinter for the GUI, lgpio for GPIO control, and pygame for audio playback.
-
-Video demo: https://www.youtube.com/watch?v=KlgzRkknJ4w
-
----
+The system is engineered using Python with Tkinter for the GUI, lgpio for GPIO control, and pygame for audio playback. Object-oriented design principles keep the code modular and scalable.
 
 ## Features
 
@@ -18,19 +14,19 @@ Video demo: https://www.youtube.com/watch?v=KlgzRkknJ4w
 - **Multiple Modes:** Single-Cat, Cat Teasing, and Game modes.
 - **Audio Integration:** Upbeat background music with warning sounds for incorrect interactions.
 - **Score Tracking:** Persistent scoreboard to track reaction times.
-- **Modular Design:** Clean and extensible object-oriented code.
 
----
+## File Overview
 
-## Future Work
+### `SPINS/`
+Contains all source code, including version history and the final release (`V1.0`).
 
-- **Add skin system**  
-- **More sensors**  
-- **More game modes**  
-- **3D-printed enclosure**  
-- **Banana gun laser pen**
+- **V0.1** – Basic implementation: button triggers cat spin  
+- **V0.5** – Added "Teasing Mode": laser pointer controls cat spin  
+- **V0.7** – Introduced "Game Mode": interactive reaction-based gameplay  
+- **V0.9** – Added warning sounds for incorrect hits; enhanced scoreboard  
+- **V1.0_build_alpha** – Fixed replay logic; refined game flow and layout  
+- **V1.0** – Final version: redesigned scoreboard with per-round stats, UI improvements, gameplay shortened to 7 rounds
 
----
 
 ## Hardware Requirements
 
@@ -39,9 +35,8 @@ Video demo: https://www.youtube.com/watch?v=KlgzRkknJ4w
 - Light Sensor Modules with digital output (connected to GPIO21, GPIO20, and GPIO2)
 - HDMI monitor or display
 - Audio output (speakers or headphones)
-- Additional components: cables, breadboard, etc.
+- Additional components: cables, resistors, breadboard, etc.
 
----
 
 ## Software Requirements
 
@@ -50,11 +45,10 @@ Video demo: https://www.youtube.com/watch?v=KlgzRkknJ4w
 - lgpio
 - pygame
 
----
 
 ## Installation
 
-1. **Clone the repository**
+1. **Clone the repository:**
 
 2. **Install dependencies (Debian-based systems):**
 
@@ -62,13 +56,10 @@ Video demo: https://www.youtube.com/watch?v=KlgzRkknJ4w
    sudo apt install python3-tk python3-lgpio python3-pygame
    pip3 install pygame
 
----
 
 ## Usage
 
-Run the project with:
-
-python3 main.py
+Run the project with main.py in any of the versions
 
 **Interaction Overview:**
 
@@ -77,6 +68,13 @@ python3 main.py
 - **Game Mode:** Click "Play With Cats" to start the game. A random cat spins, and your reaction time is measured over seven rounds. A scoreboard is displayed at the end, and you can reset the game using hardware inputs or the on-screen "Play Again" button.
 - **Persistent Scoreboard:** Use the "Scoreboard" button to view saved game scores.
 
+## Future Work
+
+- **Add skin system**  
+- **More sensors**  
+- **More game modes**  
+- **3D-printed enclosure**  
+- **Banana gun laser pen**
 
 ## License
 
