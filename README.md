@@ -6,7 +6,9 @@
 - **Cat Teasing Mode:** Players use a laser pointer on light sensors to make individual cat avatars spin.
 - **Game Mode:** A random cat spins, and players must hit the corresponding sensor to record their reaction times over seven rounds. A stylish scoreboard displays the results with persistent score tracking.
 
-The system is engineered using Python with Tkinter for the GUI, lgpio for GPIO control, and pygame for audio playback. Object-oriented design principles keep the code modular and scalable.
+The system is engineered using Python with Tkinter for the GUI, lgpio for GPIO control, and pygame for audio playback.
+
+Video demo: https://www.youtube.com/watch?v=KlgzRkknJ4w
 
 ---
 
@@ -37,7 +39,7 @@ The system is engineered using Python with Tkinter for the GUI, lgpio for GPIO c
 - Light Sensor Modules with digital output (connected to GPIO21, GPIO20, and GPIO2)
 - HDMI monitor or display
 - Audio output (speakers or headphones)
-- Additional components: cables, resistors, breadboard, etc.
+- Additional components: cables, breadboard, etc.
 
 ---
 
@@ -52,7 +54,7 @@ The system is engineered using Python with Tkinter for the GUI, lgpio for GPIO c
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
 2. **Install dependencies (Debian-based systems):**
 
