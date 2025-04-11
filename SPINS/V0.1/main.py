@@ -5,9 +5,9 @@ import lgpio
 import pygame
 
 BUTTON_PIN = 18
-STILL_IMAGE_PATH = "/home/pi5/Downloads/spinning_cat/oiia.png"
-ANIMATED_GIF_PATH = "/home/pi5/Downloads/spinning_cat/oiia_spin.gif"
-AUDIO_FILE_PATH = "/home/pi5/Downloads/spinning_cat/oiia-short.mp3"
+STILL_IMAGE_PATH = "oiia.png"
+ANIMATED_GIF_PATH = "oiia_spin.gif"
+AUDIO_FILE_PATH = "oiia-short.mp3"
 GREEN = "#40FF00"
 
 class AnimatedGifApp:
